@@ -44,7 +44,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto ">
                 <Image
-                  src="/../public/assets/skills/javascript.png"
+                  src="/public/assets/skills/javascript.png"
                   width="64"
                   height="64"
                   alt="/"
@@ -59,7 +59,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto ">
                 <Image
-                  src="/../public/assets/skills/csharp.png"
+                  src="/public/assets/skills/csharp.png"
                   width="64"
                   height="64"
                   alt="/"
@@ -74,7 +74,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto ">
                 <Image
-                  src="/../public/assets/skills/react.png"
+                  src="/public/assets/skills/react.png"
                   width="64"
                   height="64"
                   alt="/"
@@ -89,7 +89,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto ">
                 <Image
-                  src="/../public/assets/skills/tailwind.png"
+                  src="/public/assets/skills/tailwind.png"
                   width="64"
                   height="64"
                   alt="/"
@@ -104,7 +104,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto ">
                 <Image
-                  src="/../public/assets/skills/git.png"
+                  src="/public/assets/skills/git.png"
                   width="64"
                   height="64"
                   alt="/"
@@ -119,7 +119,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto ">
                 <Image
-                  src="/../public/assets/skills/azure.png"
+                  src="/public/assets/skills/azure.png"
                   width="64"
                   height="64"
                   alt="/"
