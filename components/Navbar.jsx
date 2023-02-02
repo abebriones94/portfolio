@@ -4,7 +4,6 @@ import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-// import { useRouter } from 'next/router';
 import NavLogo from "../public/assets/navLogo.png";
 
 const Navbar = () => {
@@ -12,23 +11,6 @@ const Navbar = () => {
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState("#ecf0f3");
   const [linkColor, setLinkColor] = useState("#1f2937");
-  // const [position, setPosition] = useState('fixed')
-  // const router = useRouter();
-
-  // useEffect(() => {
-  //   if (
-  //     router.asPath === '/property' ||
-  //     router.asPath === '/crypto' ||
-  //     router.asPath === '/netflix' ||
-  //     router.asPath === '/twitch'
-  //   ) {
-  //     setNavBg('transparent');
-  //     setLinkColor('#ecf0f3');
-  //   } else {
-  //     setNavBg('#ecf0f3');
-  //     setLinkColor('#1f2937');
-  //   }
-  // }, [router]);
 
   const handleNav = () => {
     setNav(!nav);
@@ -54,17 +36,16 @@ const Navbar = () => {
           : "fixed w-full h-20 z-[100]"
       }
     >
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+      <div className="flex justify-between items-center w-full h-full px-2 py-2 2xl:px-14">
         <Link href="/">
-          <a>
-            <Image
-              src={NavLogo}
-              alt="/"
-              width="125"
-              height="50"
-              className="cursor-pointer"
-            />
-          </a>
+          <Image
+            src={NavLogo}
+            backgroundColor={navBg}
+            alt="/"
+            width="80"
+            height="20"
+            className="cursor-pointer"
+          />
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
@@ -81,7 +62,9 @@ const Navbar = () => {
               <Link href="/#projects">Projects</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/resume">Resume</Link>
+              <Link href="https://github.com/abebriones94/myresume">
+                Resume
+              </Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
               <Link href="/#contact">Contact</Link>
@@ -116,9 +99,7 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-between">
               <Link href="/">
-                <a>
-                  <Image src={NavLogo} width="87" height="35" alt="/" />
-                </a>
+                <Image src={NavLogo} width="87" height="35" alt="/" />
               </Link>
               <div
                 onClick={handleNav}
@@ -172,7 +153,7 @@ const Navbar = () => {
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <a
-                  href="https://www.linkedin.com/in/clint-briley-50056920a/"
+                  href="https://www.linkedin.com/in/abebriones/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -181,7 +162,7 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href="https://github.com/fireclint"
+                  href="https://github.com/abebriones94"
                   target="_blank"
                   rel="noreferrer"
                 >
