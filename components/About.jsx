@@ -15,7 +15,7 @@ const About = () => {
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
             As a motivated soon-to-be veteran with a passion for software
-            engineering, I am eager to transition into a career in this field. I
+            engineering, I am eager to transition into a career in this field! I
             have honed my skills through self-study and hands-on experience,
             gaining proficiency in technologies such as JavaScript, HTML, CSS,
             React, C#, and Visual Studio. Furthermore, I hold various Azure
